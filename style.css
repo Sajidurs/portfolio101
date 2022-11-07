@@ -5,9 +5,15 @@
 }
 /* Header CSS */
 .header_wrapper{
-    background-color: #000;
+    background: radial-gradient(circle, rgba(252,244,248,1) 0%, rgba(220,236,255,1) 95%);
 }
-
-.header_wrapper .navbar-brand img{
-    max-width: 30%;
+.header_wrapper .navbar-barand img{
+    max-width: 20%;
+}
+.header_wrapper .navbar-nav li a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+    color: #797979;
+    letter-spacing: .14px;
+    display: block;
 }
