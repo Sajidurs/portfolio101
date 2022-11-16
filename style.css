@@ -7,13 +7,55 @@
 .header_wrapper{
     background: radial-gradient(circle, rgba(252,244,248,1) 0%, rgba(220,236,255,1) 95%);
 }
+.header_wrapper .logo{
+    height: 37px;
+    width: 137px;
+}
 .header_wrapper .navbar-barand img{
-    max-width: 20%;
+    max-width: 100%;
 }
 .header_wrapper .navbar-nav li a {
     font-family: 'Roboto Slab', serif;
-    font-size: 15px;
+    font-size: 17px;
+    margin-top: 11px;
     color: #797979;
-    letter-spacing: .14px;
+    letter-spacing: 0.14px;
     display: block;
+}
+
+
+/* Header Right */
+.account a {
+    background: #007cf5;
+    color: #dfdfdf!;
+    font-family: 'Roboto Slab', serif;
+    color: #fff !important;
+    width: 110px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 5px 8px 5px 11px;
+    font-size: 15px !important;
+    box-shadow: 7px 5px 10px 2px #007cf530;
+}
+
+/* banner_wrapper CSS */
+.banner_wrapper{
+    background: radial-gradient(circle, rgb(255 252 253) 0%, rgba(220,236,255,1) 95%);
+}
+.banner_wrapper .banner_left h2 {
+    /* font-size: 40px; */
+    color: #9d7777;
+    font-size: 56px;
+    font-weight: 900;
+    line-height: 1.15em;
+    letter-spacing: .49px;
+    margin-top: 120px;
+    margin-bottom: 40px;
+}
+.banner_wrapper .banner_left p {
+    font-size: 24px;
+    color: #606b7b;
+    letter-spacing: .18px;
+    line-height: 33px;
+    margin-bottom: 42px;
 }
