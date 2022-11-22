@@ -464,7 +464,7 @@
 .carousel .testimonial {
     color: #fff;
     position: relative;    
-    background: #9b9b9b;
+    background: #3d6bff;
 	padding: 15px;
 	margin: 0 0 20px 20px;
 }
@@ -523,7 +523,7 @@
 .carousel-control-prev, .carousel-control-next {
 	width: 30px;
 	height: 30px;
-    background: #666;
+    background: #fc868f;
     text-shadow: none;
 	top: 4px;
 }
@@ -563,3 +563,165 @@
 	font-size: 14px;
 	color: #ffdc12;
 }
+.testti_heading h2 {
+    font-size: 21px;
+    margin-bottom: 24px;
+    color: #6c6c6c;
+}
+
+
+/* Rated Product CSS */
+.rated_items {
+    padding: 25px;
+}
+
+.rated_items .solution_1 {
+    background-image: linear-gradient(270deg, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+    padding: 20px;
+    box-shadow: 0 30px 80px 0 rgb(0 0 0 / 4%);
+    height: 250px;
+    max-width: 500px !important;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rated_items .solution_1 img {
+    max-width: 50%;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 30px;
+}
+.rated_items .solution_1 p {
+    margin: 28px 40px 11px;
+    font-size: 20px;
+    text-align: center;
+}
+.rated_items .solution_1 a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: #025646;
+}
+.rated_items .solution_2 {
+    background-image: linear-gradient(270deg,hsla(0,0%,100%,0),#fff);
+    background-color: #a35f5f08;
+    max-width: 500px !important;
+    padding: 20px;
+    height: 250px;
+    margin-top: -50px;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.rated_items .solution_2 img {
+    max-width: 50%;
+    margin: 0px auto;
+    display: flex;
+    margin-top: 30px;
+}
+.rated_items .solution_2 p {
+    margin: 28px 40px 11px;
+    font-size: 20px;
+    text-align: center;
+}
+.rated_items .solution_2 a {
+    text-decoration: none;
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+    color: #025646;
+}
+
+/* Start Rating CSS */
+.checked {
+    color: orange;
+}
+.rated_items .rating{
+    text-align: center;
+    margin-top: 23px;
+}
+
+.rated_items .solution_1 p {
+    margin: 28px 40px 11px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 70px;
+    margin: 0 auto;
+    height: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    background-image: linear-gradient(183deg,#fff,#fff 79%);
+    box-shadow: 0 32px 45px 0 rgb(215 167 86 / 13%);
+    align-items: center;
+    display: flex;
+}
+.rated_items .solution_2 p {
+    margin: 28px 40px 11px;
+    font-size: 20px;
+    text-align: center;
+    max-width: 70px;
+    margin: 0 auto;
+    height: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    background-image: linear-gradient(183deg,#fff,#fff 79%);
+    box-shadow: 0 32px 45px 0 rgb(215 167 86 / 13%);
+    align-items: center;
+    display: flex;
+}
+
+
+.rating_section_wrapper {
+    background: radial-gradient(circle, rgb(255 252 253) 0%, rgba(220,236,255,1) 95%);
+}
+.rating_section h2 {
+    margin-bottom: 135px;
+    margin-top: 100px;
+    color: #0068f3;
+    font-weight: 700;
+    text-align: center;
+}
+.rating_section h2 span {
+    color: #000;
+}
+/* Footer Top Content CSS */
+.footer_top_content {
+    background: rgb(253, 253, 255);
+    padding: 50px;
+    box-shadow: rgb(245 245 245) 1px 4px 14px 5px;
+    width: 1200px;
+    margin: 64px auto;
+}
+
+.footer_top_content .f_content_2 h3{
+    font-weight: 900;
+    font-size: 30px;
+    color: #000;
+    letter-spacing: .27px;
+    margin-bottom: 11px;
+    margin-top: 18px;
+}
+.footer_top_content .f_content_2 p{
+    font-size: 18px;
+    color: #758598;
+    letter-spacing: .16px;
+    line-height: 30px;
+}
+.footer_top_content .f_content_3 button {
+    background: #007cf5;
+    box-shadow: 0 15px 25px 0 rgb(4 22 94 / 10%);
+    border-radius: 3px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: .15px;
+    border: navajowhite;
+    padding: 15px 23px;
+    margin-top: 40px;
+    transition: all .3s ease;
+}
+.footer_top_content .f_content_3 button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
